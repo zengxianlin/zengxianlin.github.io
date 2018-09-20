@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff5ff;
+  background: #ff16d2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3105,7 +3105,8 @@ body {
   border-radius: initial;
 }
 .btn,
-.sidebar-nav .sidebar-nav-active {
+.sidebar-nav .sidebar-nav-active,
+.post-toc .nav .active > a {
   border-color: #42b983 !important;
   color: #42b983 !important;
 }
