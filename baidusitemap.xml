@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/2018/09/12/hello-world/</loc>
-    <lastmod>2018-09-20T02:37:58.101Z</lastmod>
-  </url>  <url>
     <loc>http://yoursite.com/2018/09/20/%E6%96%87%E7%AB%A0%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
-    <lastmod>2018-09-20T01:53:16.971Z</lastmod>
+    <lastmod>2018-09-20T04:31:03.216Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2018/09/20/%E6%96%87%E7%AB%A0%E7%AC%AC%E4%B8%80%E7%AF%87%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    <lastmod>2018-09-20T04:31:03.216Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2018/09/12/hello-world/</loc>
+    <lastmod>2018-09-20T03:05:39.667Z</lastmod>
   </url>
 </urlset>

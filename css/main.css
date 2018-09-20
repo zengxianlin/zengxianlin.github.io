@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe29ff;
+  background: #2ed9e0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3006,4 +3006,146 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+#rewardButton {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  letter-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+}
+#rewardButton span {
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  background: #f44336;
+}
+#rewardButton span:hover {
+  background: #f7877f;
+}
+#QR {
+  padding-top: 20px;
+  display: block;
+}
+#QR a {
+  border: 0;
+}
+#QR img {
+  width: 180px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0.8em 2em 0 2em;
+}
+#wechat:hover p {
+  animation: roll 0.1s infinite linear;
+  -webkit-animation: roll 0.1s infinite linear;
+  -moz-animation: roll 0.1s infinite linear;
+}
+#alipay:hover p {
+  animation: roll 0.1s infinite linear;
+  -webkit-animation: roll 0.1s infinite linear;
+  -moz-animation: roll 0.1s infinite linear;
+}
+#bitcoin:hover p {
+  animation: roll 0.1s infinite linear;
+  -webkit-animation: roll 0.1s infinite linear;
+  -moz-animation: roll 0.1s infinite linear;
+}
+body {
+  background-color: #f5f5f5 !important;
+}
+*,
+*:hover {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.content-wrap,
+.posts-expand {
+  padding: 0 !important;
+  background-color: rgba(0,0,0,0);
+}
+.post-block:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-transform: translate3d(0, 2px, 0);
+  -webkit-transform: translate3d(0, 2px, 0);
+  -moz-transform: translate3d(0, 2px, 0);
+  -ms-transform: translate3d(0, 2px, 0);
+  -o-transform: translate3d(0, 2px, 0);
+  transform: translate3d(0, 2px, 0);
+}
+.post-block {
+  padding: 40px !important;
+  background: #fff;
+  border-radius: initial;
+}
+#posts > article + article .post-block {
+  margin-top: 16px;
+  border-radius: initial;
+}
+.btn {
+  border-color: #42b983 !important;
+  color: #42b983 !important;
+}
+.btn:hover,
+.back-to-top {
+  background-color: #42b983 !important;
+  color: #fff !important;
+}
+.back-to-top:hover {
+  opacity: 1;
+}
+.posts-expand .post-title-link,
+.post-title {
+  color: #42b983 !important;
+}
+.headband,
+.site-meta,
+.posts-expand .post-title-link::before {
+  background-color: #42b983 !important;
+}
+.posts-expand .post-eof {
+  display: none !important;
+}
+.posts-expand .post-meta {
+  margin-bottom: 30px !important;
+}
+*::selection {
+  color: #fff;
+  background-color: #42b983 !important;
+  text-shadow: none;
+}
+*::-moz-selection {
+  color: #fff;
+  background-color: #42b983 !important;
+  text-shadow: none;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #dddee0;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c7c9cc;
+}
+::-webkit-scrollbar-cornor {
+  background-color: #dddee0;
+  border-radius: 2px;
 }
