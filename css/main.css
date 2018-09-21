@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #865d3c;
+  background: #9fffc7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3160,6 +3160,9 @@ body {
   color: #fff !important;
   background-color: #42b983 !important;
   padding: 0.25rem 0.8rem !important;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+  color: #42b983 !important;
 }
 .v .vbtn:hover {
   color: #42b983 !important;
