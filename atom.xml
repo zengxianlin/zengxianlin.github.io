@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zengxianlin.github.io/"/>
-  <updated>2018-09-20T10:08:39.459Z</updated>
+  <updated>2018-09-21T09:52:23.595Z</updated>
   <id>https://zengxianlin.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git教程</title>
+    <link href="https://zengxianlin.github.io/2018/09/21/Git%E6%95%99%E7%A8%8B/"/>
+    <id>https://zengxianlin.github.io/2018/09/21/Git教程/</id>
+    <published>2018-09-21T07:44:02.000Z</published>
+    <updated>2018-09-21T09:52:23.595Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2018/09/21/Git教程/0.jpg" alt=""></p><h2 id="在windows安装"><a href="#在windows安装" class="headerlink" title="在windows安装"></a>在windows安装</h2><p>windows上使用git，可以去git官网直接<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载安装</a>，安装成功后，可以右键鼠标，菜单上看到 <code>Git Bash</code> ，说明git安装成功。<br>以上步骤OK以后，还需要配置的您个人信息，右键打开 <code>Git Bash</code>，在命令行中输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"userName"</span></span><br><span class="line">git config --global user.email <span class="string">"email"</span></span><br></pre></td></tr></table></figure></p><p>可能你想查看你自己配置的账号信息，可以操作如下：<br>config 配置有三个级别 system、global（用户）、local（当前仓库），使用–system/global/local 可以找到配置文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// config 配置指令</span><br><span class="line">git config</span><br></pre></td></tr></table></figure></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 查看系统 system</span><br><span class="line">git config --system --list</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 查看当前用户（global）配置 system</span><br><span class="line">git config --global --list</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 查看当前仓库（global）配置 system</span><br><span class="line">git config --<span class="built_in">local</span> --list</span><br></pre></td></tr></table></figure><p>小提示：本人没有配置local，所以就报错了！<br><img src="/2018/09/21/Git教程/20180921162127.png" alt=""><br>再或者，你可能需要清除电脑上的git账号信息时，可以使用这个命令清除你的账号信息，你再去看global的信息，是否已经删除成功！<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --<span class="built_in">unset</span> credential.helper</span><br></pre></td></tr></table></figure></p><h2 id="初始化-Git仓库"><a href="#初始化-Git仓库" class="headerlink" title="初始化 Git仓库"></a>初始化 Git仓库</h2><p>初始化一个Git仓库或把某个目录变成Git可以管理的仓库，使用命令 <code>git init</code>：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></p><p>成功后，在你的当前目录下会有个.git的文件，这个是git的跟踪管理版本库，没事不要乱改，改乱了会破坏git仓库<br>当我们要写东西的时候，一定是放在刚刚创建下的.git文件的同级目录中，否则，git它无法找到你写的东西。<br>我们现在创建一个文件 <code>helloWord.text</code><br>第一步，用命令 <code>git add</code>告诉git，要把文件添加到仓库中：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 命令执行后，没有任何提示，说明添加成功</span><br><span class="line">git add helloWord.text</span><br></pre></td></tr></table></figure></p><p>第二步，用命令 <code>git commit</code>告诉git，要把文件提交到仓库中：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 命令执行后，没有任何提示，说明添加成功</span><br><span class="line">git commit -m <span class="string">"我提交了helloWord.text到仓库中"</span></span><br></pre></td></tr></table></figure></p><p>小提示：-m是表示提交的一个说明</p><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><blockquote><p><code>git status</code> : 查看当前仓库中文件的状态<br><code>git status -s</code> : 文件状态的简写（M - 修改， A - 添加， D - 删除， R - 重命名，?? - 未追踪）。<br><code>git add &lt;文件名&gt;</code> ：将后方紧跟的文件进行暂存，以便commit使用<br><code>git reset HEAD &lt;文件名&gt;</code> : 将已经暂存的文件进行撤销，回到未暂存的状态<br><code>git checkout -- &lt;文件名&gt;</code> ：撤销对尚未暂存文件的修改，该操作不可逆，慎用<br><code>git commit -a</code> : 对那些被修改的文件单尚未暂存和提交的文件进行暂存和提交。注意：对未暂存的新增文件无效。<br><code>git commit</code> : 对暂存区的文件进行提交到本地仓库<br><code>git push</code> : 将本地仓库已经提交的内容发布到远端</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/2018/09/21/Git教程/0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;在windows安装&quot;&gt;&lt;a href=&quot;#在windows安装&quot; class=&quot;headerlink&quot; title=&quot;在windows安装&quot;&gt;&lt;/a&gt;在windo
+      
+    
+    </summary>
+    
+      <category term="git" scheme="https://zengxianlin.github.io/categories/git/"/>
+    
+    
+      <category term="工具箱" scheme="https://zengxianlin.github.io/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>前端书写规范</title>

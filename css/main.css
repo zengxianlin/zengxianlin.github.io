@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9fffc7;
+  background: #c481ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3152,7 +3152,8 @@ body {
 .comments > * {
   padding: 20px !important;
 }
-.v .vwrap .vheader .vinput:hover {
+.v .vwrap .vheader .vinput:hover,
+blockquote {
   border-color: #42b983 !important;
 }
 .v .vbtn {
@@ -3168,6 +3169,27 @@ body {
   color: #42b983 !important;
   border-color: #42b983 !important;
   background-color: #fff !important;
+}
+.content {
+  margin-bottom: 20px !important;
+}
+.post-spread {
+  margin-top: 0 !important;
+}
+code {
+  color: #fff;
+  background-color: #42b983 !important;
+  border: 1px solid #42b983;
+}
+code::selection {
+  color: #000;
+  background-color: #42b983 !important;
+  text-shadow: none;
+}
+code::-moz-selection {
+  color: #000;
+  background-color: #42b983 !important;
+  text-shadow: none;
 }
 *::selection {
   color: #fff;
