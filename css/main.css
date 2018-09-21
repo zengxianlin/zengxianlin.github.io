@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #79326a;
+  background: #2bffa6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3115,6 +3115,9 @@ body {
 .menu-item-active a:after {
   background-color: #42b983 !important;
   color: #fff !important;
+}
+.sidebar-nav li:hover {
+  color: #42b983 !important;
 }
 .back-to-top:hover {
   opacity: 1;
