@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="文章," />
+  <meta name="keywords" content="工具箱," />
 
 
 
@@ -81,21 +81,18 @@
 
 
 
-<meta name="description" content="Hello World程序猿最熟悉的代码，貌似都是这么一句吧！2015年开始接触了前端这一门语言，那时候认为前端是最简单最好学的，其他同学都是走的Ios、Android（那时候薪资最高、最好找工作），这些深奥、高大上的代码，我是最不愿意接触的，无奈之下走向了前端！（一入前端深似海） 我们毕业了2015年6月底，我们正式毕业了，各自踏上人生发财道路，大部分同学都去了深圳，而我独自一人来到了广州，广州">
-<meta name="keywords" content="文章">
+<meta name="description" content="webpack特点 webpack本质上是nodejs的一个包，所以webpack是基于node.exe来运行的 想要运行webpack就必须要安装node.exe webpakc是在开发阶段要被程序员使用的，但是在生成环节中是用不到的  如何安装webpack 安装node.exe的同事会自动安装好npm 包管理工具 npm 包这个管理器下载的包是来源于国外，所以速度回很慢，甚至出错所以我们使用">
+<meta name="keywords" content="工具箱">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://zengxianlin.github.io/2018/09/12/hello-world/index.html">
+<meta property="og:title" content="webpack使用介绍-1">
+<meta property="og:url" content="https://zengxianlin.github.io/2018/09/26/webpack使用介绍-1/index.html">
 <meta property="og:site_name" content="zengxianlin&#39;s blog">
-<meta property="og:description" content="Hello World程序猿最熟悉的代码，貌似都是这么一句吧！2015年开始接触了前端这一门语言，那时候认为前端是最简单最好学的，其他同学都是走的Ios、Android（那时候薪资最高、最好找工作），这些深奥、高大上的代码，我是最不愿意接触的，无奈之下走向了前端！（一入前端深似海） 我们毕业了2015年6月底，我们正式毕业了，各自踏上人生发财道路，大部分同学都去了深圳，而我独自一人来到了广州，广州">
+<meta property="og:description" content="webpack特点 webpack本质上是nodejs的一个包，所以webpack是基于node.exe来运行的 想要运行webpack就必须要安装node.exe webpakc是在开发阶段要被程序员使用的，但是在生成环节中是用不到的  如何安装webpack 安装node.exe的同事会自动安装好npm 包管理工具 npm 包这个管理器下载的包是来源于国外，所以速度回很慢，甚至出错所以我们使用">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://zengxianlin.github.io/2018/09/12/hello-world/20180921115617.png">
-<meta property="og:image" content="https://zengxianlin.github.io/2018/09/12/hello-world/20180921131352.jpg">
-<meta property="og:updated_time" content="2018-09-21T05:18:01.177Z">
+<meta property="og:updated_time" content="2018-09-26T03:56:09.789Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Hello World程序猿最熟悉的代码，貌似都是这么一句吧！2015年开始接触了前端这一门语言，那时候认为前端是最简单最好学的，其他同学都是走的Ios、Android（那时候薪资最高、最好找工作），这些深奥、高大上的代码，我是最不愿意接触的，无奈之下走向了前端！（一入前端深似海） 我们毕业了2015年6月底，我们正式毕业了，各自踏上人生发财道路，大部分同学都去了深圳，而我独自一人来到了广州，广州">
-<meta name="twitter:image" content="https://zengxianlin.github.io/2018/09/12/hello-world/20180921115617.png">
+<meta name="twitter:title" content="webpack使用介绍-1">
+<meta name="twitter:description" content="webpack特点 webpack本质上是nodejs的一个包，所以webpack是基于node.exe来运行的 想要运行webpack就必须要安装node.exe webpakc是在开发阶段要被程序员使用的，但是在生成环节中是用不到的  如何安装webpack 安装node.exe的同事会自动安装好npm 包管理工具 npm 包这个管理器下载的包是来源于国外，所以速度回很慢，甚至出错所以我们使用">
 
 
 
@@ -125,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://zengxianlin.github.io/2018/09/12/hello-world/"/>
+  <link rel="canonical" href="https://zengxianlin.github.io/2018/09/26/webpack使用介绍-1/"/>
 
 
 
 
 
-  <title>Hello World | zengxianlin's blog</title>
+  <title>webpack使用介绍-1 | zengxianlin's blog</title>
   
 
 
@@ -278,7 +275,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zengxianlin.github.io/2018/09/12/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://zengxianlin.github.io/2018/09/26/webpack使用介绍-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="曾宪林">
@@ -295,7 +292,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">webpack使用介绍-1</h1>
         
 
         <div class="post-meta">
@@ -307,8 +304,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-12T11:23:40+08:00">
-                2018-09-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-26T11:53:39+08:00">
+                2018-09-26
               </time>
             
 
@@ -330,8 +327,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
+                  <a href="/categories/webpack/" itemprop="url" rel="index">
+                    <span itemprop="name">webpack</span>
                   </a>
                 </span>
 
@@ -348,8 +345,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/09/12/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/09/12/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2018/09/26/webpack使用介绍-1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/09/26/webpack使用介绍-1/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -357,7 +354,7 @@
 
           
           
-             <span id="/2018/09/12/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2018/09/26/webpack使用介绍-1/" class="leancloud_visitors" data-flag-title="webpack使用介绍-1">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -388,7 +385,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  584 字
+                  1.6k 字
                 </span>
               
 
@@ -404,7 +401,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  6 分钟
                 </span>
               
             </div>
@@ -425,9 +422,49 @@
       
 
       
-        <h4 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h4><p>程序猿最熟悉的代码，貌似都是这么一句吧！<br><br>2015年开始接触了前端这一门语言，那时候认为前端是最简单最好学的，其他同学都是走的Ios、Android（那时候薪资最高、最好找工作），这些深奥、高大上的代码，我是最不愿意接触的，无奈之下走向了前端！（一入前端深似海）</p>
-<h4 id="我们毕业了"><a href="#我们毕业了" class="headerlink" title="我们毕业了"></a>我们毕业了</h4><p>2015年6月底，我们正式毕业了，各自踏上人生发财道路，大部分同学都去了深圳，而我独自一人来到了广州，广州这个城市生活节奏并不像北上深那么快，后面也就在广州定居下来了。</p>
-<h4 id="初出茅庐-前端-卷铺盖"><a href="#初出茅庐-前端-卷铺盖" class="headerlink" title="初出茅庐-前端-卷铺盖"></a>初出茅庐-前端-卷铺盖</h4><p>第一家公司，是在<a href="http://www.xtownmobile.com/mobile/index.html" target="_blank" rel="noopener">广州迅维资讯技术有限公司</a><br>那个时候，公司有四个前端（平哥，胖子，me，叶总），后面来了一个实习生（金刚），平哥是我们前端老大，带领着我们这些小罗罗开车，专攻我们所有遇到不会的问题，只要你问问题没有他不会的，没错就是前端大神（七八年的老司机），我们这几个算是幸运的抱大腿了，自从跟着平哥我们开车稳得很，那时候好像是只要有他我们就能飞起，平哥经常带我们出去浪（吃喝嫖赌，不对没有嫖赌，我们是良民！平哥是个吃货），当然我们是要交会费的，由我们的金刚负责收费（我们几个经常不交会费，都是平哥催着，哈哈！）。<br>怎么说呢？平哥就像我们的大哥一样带着我们，我们其他几个就像小弟一样，有大哥罩着我们自然很开心。好景不长2年过后，由于其他原因我离职了，不到两个月叶总、胖子也都离职了（只剩下了平哥跟金刚相依为命），那时候，我们都知道平哥和金刚很舍不得大家，没办法天下没有不散的宴席。我们从一开始的工作同事变成了好友，就像叶总说的从同事变成了好友这是非常难得的，我们也都很珍惜这份情谊和感恩！<br><img src="/2018/09/12/hello-world/20180921115617.png" alt=""><br><img src="/2018/09/12/hello-world/20180921131352.jpg" alt=""></p>
+        <h2 id="webpack特点"><a href="#webpack特点" class="headerlink" title="webpack特点"></a>webpack特点</h2><ul>
+<li>webpack本质上是nodejs的一个包，所以webpack是基于node.exe来运行的</li>
+<li>想要运行webpack就必须要安装node.exe</li>
+<li>webpakc是在开发阶段要被程序员使用的，但是在生成环节中是用不到的</li>
+</ul>
+<h2 id="如何安装webpack"><a href="#如何安装webpack" class="headerlink" title="如何安装webpack"></a>如何安装webpack</h2><ul>
+<li>安装node.exe的同事会自动安装好npm 包管理工具</li>
+<li>npm 包这个管理器下载的包是来源于国外，所以速度回很慢，甚至出错<br>所以我们使用国内taobao开发的一个cnpm来替代npm的使用</li>
+</ul>
+<h2 id="使用webpack之前的准备工作"><a href="#使用webpack之前的准备工作" class="headerlink" title="使用webpack之前的准备工作"></a>使用webpack之前的准备工作</h2><ul>
+<li>安装node环境</li>
+<li>npm i cnpm -g 将cnpm全局安装</li>
+<li>cnpm i webpack -g 将webpack安装成为全局包</li>
+</ul>
+<h2 id="学习nodejs的模块化开发"><a href="#学习nodejs的模块化开发" class="headerlink" title="学习nodejs的模块化开发"></a>学习nodejs的模块化开发</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1、在nodejs中一切.js文件都可以是一个模块</span><br><span class="line">2、calc.js</span><br><span class="line">    function add(x,y)&#123;return x + y;&#125;</span><br><span class="line">    module.exports = add;</span><br><span class="line"></span><br><span class="line">3、main.js使用calc.js中的add方法</span><br><span class="line">    导calc.js模块</span><br><span class="line">    var calcExports = require(&apos;./calc.js&apos;);</span><br></pre></td></tr></table></figure>
+<h2 id="webpack的使用方式"><a href="#webpack的使用方式" class="headerlink" title="webpack的使用方式"></a>webpack的使用方式</h2><ul>
+<li>第一种使用方式：webpack 入口文件.js的路径  输出文件.js的路径</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在当前要打包的入口.js文件的位置打开cmd ，输入 webpack 入口文件.js  输出文件.js</span><br><span class="line"></span><br><span class="line">使用案例：下午02 - webpack的基本指令使用 .itcast</span><br></pre></td></tr></table></figure>
+<ul>
+<li>第二种使用方式：webpack 结合 webpack.config.js 配置文件进行打包</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">目的：在cmd面板中直接利用  webpack指令即可进行打包，</span><br><span class="line">特点：如果直接指向 webpack 指令，webpack指令会自动去查找当前目录下的webpack.config.js文件</span><br><span class="line"></span><br><span class="line">编写步骤：</span><br><span class="line"></span><br><span class="line">1、webpack.config.js中定义入口文件和输出文件的 内容</span><br><span class="line"></span><br><span class="line">module.exports=&#123;</span><br><span class="line">// 1.0 定义打包的入口文件路径</span><br><span class="line">entry:&apos;./src/main.js&apos;,</span><br><span class="line">output:&#123;</span><br><span class="line">    path:&apos;./src&apos;,   //打包以后的文件存放目录</span><br><span class="line">    filename:&apos;build.js&apos;  // 打包以后生成的文件名称</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">2、在与webpack.config.js文件相同的目录下打开cmd，执行webpack即可完成打包</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>利用webpack完成 css文件的打包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">注意点：webpack是利用style-loader和css-loader这两个nodejs的包来完成.css文件的打包工作</span><br><span class="line"></span><br><span class="line">步骤：</span><br><span class="line">    1、cnpm i style-loader css-loader 安装本地包</span><br><span class="line">        style-loader与css-loader会依赖于其他的很多包，所以一般我们在将这个项目文件发送给其他人使用的时候，是要删除 node_modeuls这个文件夹的，这时候就有可能不知道这个项目中依赖于哪些第三方包</span><br><span class="line"></span><br><span class="line">        解决方案：</span><br><span class="line">        node.exe中提供了一个 package.json文件用来存放当前安装的所有包，</span><br><span class="line">        这些包分为：</span><br><span class="line">        1、开发阶段使用的包      cnpm i 包名称 --save-dev</span><br><span class="line">         --save-dev对应的是package.json devDependencies节点</span><br><span class="line">        2、生产环境阶段使用的包  cnpm i 包名称 --save</span><br><span class="line">            --save对应的是package.json dependencies节点</span><br><span class="line"></span><br><span class="line">        保存的步骤：</span><br><span class="line">        1、利用 cnpm init 来生成一个 package.json文件</span><br><span class="line">        2、cnpm i style-loader css-loader  --save-dev</span><br><span class="line"></span><br><span class="line">    2、将style-loader与css-loader配置在 webpack.config.js中，webpack才能使用这两个loader文件</span><br><span class="line"></span><br><span class="line">        &#123;</span><br><span class="line">            // 打包css文件</span><br><span class="line">            test:/\.css$/,   //表示当前要打包的文件的后缀正则表达式</span><br><span class="line">            loader:&apos;style-loader!css-loader&apos; //表示先利用css-loader解析.css文件，再调用style-loader打包</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>利用webpack完成 sass 文件的打包</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">步骤：（如果npm安装错误，则使用cnpm）</span><br><span class="line">1、cnpm install sass-loader node-sass --save-dev</span><br><span class="line">2、sass-loader 在webpack.config.js中增加一个 loader节点</span><br><span class="line"></span><br><span class="line">注意点： sass文件的打包依赖于 sass-loader 解析成原生的 .css语法</span><br><span class="line">所以要最终打包成功就必须要依赖于style-loader css-loader</span><br><span class="line">所以在配置 sass的时候，</span><br><span class="line">style-loader!css-loade!sass-loader</span><br><span class="line"></span><br><span class="line">     &#123;</span><br><span class="line">         test:/\.scss$/,   //表示当前要打包的文件的后缀正则表达式</span><br><span class="line">         loader:&apos;style-loader!css-loader!sass-loader&apos;实现sass文件的打包</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>利用webpack完成 less 文件的打包</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">步骤：（如果npm安装错误，则使用cnpm）</span><br><span class="line">1、cnpm install less-loader less  --save-dev</span><br><span class="line"></span><br><span class="line">2、less-loader 在webpack.config.js中增加一个 loader节点</span><br><span class="line">    注意点： 在配置 loader:&apos;&apos; 对应的loader的时候，要</span><br><span class="line">   按照 style-loader!css-loader!less-loader 配置</span><br><span class="line"></span><br><span class="line">        &#123;</span><br><span class="line">            // 打包less文件</span><br><span class="line">            test:/\.less$/,   //表示当前要打包的文件的后缀正则表达式</span><br><span class="line">            loader:&apos;style-loader!css-loader!less-loader&apos; //实现sass文件的打包</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>利用webpack完成 url()导入资源文件的打包</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">例如需求：</span><br><span class="line">    background-image: url(../imgs/home.png)</span><br><span class="line">    那么webpack必须利用 url-loader 这个包去解析，而url-loader依赖file-loader，所以</span><br><span class="line">    步骤：</span><br><span class="line">    1、npm i url-loader file-loader --save-dev</span><br><span class="line"></span><br><span class="line">    2、url-loader在webpack.config.js中增加一个 loader节点</span><br><span class="line">            &#123;</span><br><span class="line">                // 打包url()请求的资源文件</span><br><span class="line">                test:/\.(png|jpg|gif|ttf)$/,   // 注意url可能请求多个资源，所以将来在项目中通过url导入的资源扩展名必须配置在这里</span><br><span class="line">                // loader:&apos;url-loader&apos;  //这种配置会将图片变成一个base64的字符串存储到build.js中，如果图片很大的话，那么会造成build.js也比较大，加载的时候会导致效率低下</span><br><span class="line">                loader:&apos;url-loader?limit=40000&apos; //限制图片的大小如果&lt;40k则把他当做base64字符串存储到build.js中，如果&gt;40k 则单独将图片存放到磁盘上，将路径打包进去bulid.js</span><br><span class="line">            &#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>利用webpack完成 es6转es5</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">步骤：</span><br><span class="line">1、npm install babel-core babel-loader babel-preset-es2015 babel-plugin-transform-runtime --save-dev</span><br><span class="line"></span><br><span class="line"> 注意：babel-plugin-transform-runtime 安装是为了在后面能够正常编译.vue这个文件不出错</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">2、webpack.config.js配置</span><br><span class="line"></span><br><span class="line">    1.0 module对象中的loaders中配置(注意：无论webpack是什么版本，都必须配置)：</span><br><span class="line">        &#123;</span><br><span class="line">                // 将当前项目中所有的.js文件都要进行es6转es5操作，node_moudels除外</span><br><span class="line">                test:/\.js$/,   //表示当前要打包的文件的后缀正则表达式</span><br><span class="line">                // loader:&apos;babel-loader?presets[]=es2015&apos;, //如果写到这里，将来在打包.vue文件的时候会报错，表示先利用css-loader解析.css文件，再调用style-loader打包</span><br><span class="line">                loader:&apos;babel-loader&apos;,</span><br><span class="line">                exclude:/node_modules/  //node_modules中的所有.js文件不去转换，提高打包性能</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    2.0 如果 webpack是 1.* 版本，则：module对象的后面配置：</span><br><span class="line">        babel:&#123;</span><br><span class="line">             presets: [&apos;es2015&apos;],</span><br><span class="line">             plugins: [&apos;transform-runtime&apos;]  //这句代码就是为了解决打包.vue文件不报错</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    2.1 如果 webpack是 2.* 版本，则：在与webpack.config.js配置文件相同目录下，新建一个【.babelrc】文件，该文件内容如下：</span><br><span class="line">        &#123;</span><br><span class="line">             presets: [&apos;es2015&apos;],</span><br><span class="line">             plugins: [&apos;transform-runtime&apos;]  //这句代码就是为了解决打包.vue文件不报错</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -477,7 +514,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://zengxianlin.github.io/2018/09/12/hello-world/" title="Hello World">https://zengxianlin.github.io/2018/09/12/hello-world/</a>
+    <a href="https://zengxianlin.github.io/2018/09/26/webpack使用介绍-1/" title="webpack使用介绍-1">https://zengxianlin.github.io/2018/09/26/webpack使用介绍-1/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -492,7 +529,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/文章/" rel="tag"># 文章</a>
+            <a href="/tags/工具箱/" rel="tag"># 工具箱</a>
           
         </div>
       
@@ -505,15 +542,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/09/21/Git教程/" rel="next" title="Git教程">
+                <i class="fa fa-chevron-left"></i> Git教程
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/09/20/前端开发工程师/" rel="prev" title="前端开发工程师">
-                前端开发工程师 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -679,7 +716,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Hello-World"><span class="nav-number">1.</span> <span class="nav-text">Hello World</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#我们毕业了"><span class="nav-number">2.</span> <span class="nav-text">我们毕业了</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#初出茅庐-前端-卷铺盖"><span class="nav-number">3.</span> <span class="nav-text">初出茅庐-前端-卷铺盖</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#webpack特点"><span class="nav-number">1.</span> <span class="nav-text">webpack特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何安装webpack"><span class="nav-number">2.</span> <span class="nav-text">如何安装webpack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用webpack之前的准备工作"><span class="nav-number">3.</span> <span class="nav-text">使用webpack之前的准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#学习nodejs的模块化开发"><span class="nav-number">4.</span> <span class="nav-text">学习nodejs的模块化开发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webpack的使用方式"><span class="nav-number">5.</span> <span class="nav-text">webpack的使用方式</span></a></li></ol></div>
             
 
           </div>
@@ -904,7 +941,7 @@
       <script type="text/javascript">
       function renderGitment(){
         var gitment = new Gitmint({
-            id:  '1536722620966' <!-- window.location.pathname -->,
+            id:  '1537934019000' <!-- window.location.pathname -->,
             owner: '877529974@qq.com',
             repo: 'https://zengxianlin.github.io/',
             
